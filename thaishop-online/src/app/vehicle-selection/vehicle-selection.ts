@@ -1,8 +1,9 @@
 import { Component,inject  } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-vehicle-selection',
-  imports: [],
+  imports: [FormsModule,ReactiveFormsModule],
   templateUrl: './vehicle-selection.html',
   styleUrl: './vehicle-selection.scss'
 })
